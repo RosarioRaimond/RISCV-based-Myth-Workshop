@@ -185,6 +185,56 @@ reg 0 a2
   <img width="1285" height="804" alt="image" src="https://github.com/user-attachments/assets/33802f88-66e6-4cc2-9b24-d49d88e1bc7b" />
 </p>
 
+### D1SK3 - Integer Number Representation    
+
+Computers store and process data in the form of voltages. There are 2 digits in this system, when the voltage level is above a threshold it is represented by 1, when it is below a threshold it is considered 0. Each symbol in this system is called a bit (binary digit).  
+8 bits  - 1 byte  
+32 bits - 1 Word  
+64 bits - 1 Double Word  
+
+<p align="center">
+  <img width="1917" height="1073" alt="image" src="https://github.com/user-attachments/assets/15ad40a4-f255-46b9-aa0b-6cbe9cfa6d47" />
+</p>
+
+The number of symbols that can be represented using n-bits is `2ⁿ`. So the range for unsigned integer is `0` to `2ⁿ-1`. For a signed integer the range is `−2ⁿ⁻¹` to `2ⁿ⁻¹ − 1`.
+  
+
+
+<p align="center">
+  <img width="1753" height="745" alt="image" src="https://github.com/user-attachments/assets/a25ba43b-a0db-46ae-a34d-c987994bd929" />
+</p>
+<p align="center">
+  <img width="1697" height="362" alt="image" src="https://github.com/user-attachments/assets/8e18a361-28c7-4a60-835e-3d6428ec2e71" />
+</p>
+
+The negative numbers are represented using 2's complement.
+
+<p align="center">
+  <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/a73d3d31-01e2-4b40-a4c7-76d1cc6c3014" />
+</p>
+<p align="center">
+  <img width="1915" height="1079" alt="image" src="https://github.com/user-attachments/assets/867acf68-e4f0-4672-8859-cbc7d58c76f3" />
+</p>
+<p align="center">
+  <img width="1918" height="569" alt="image" src="https://github.com/user-attachments/assets/1290fe6e-5990-4417-9aef-1bf2a58f839f" />
+</p>
+Instructions that operate on these kind of numbers are called Base integer instructions RV64I.  
+
+### Lab
+
+<p align="center">
+  <img width="1289" height="802" alt="image" src="https://github.com/user-attachments/assets/2fddef9d-c06b-4ba4-ba62-074c2be76d8d" />
+  <img width="1284" height="479" alt="image" src="https://github.com/user-attachments/assets/d270f6f1-c676-4f19-9c96-b2d36adcecdb" />
+  <img width="1288" height="487" alt="image" src="https://github.com/user-attachments/assets/c24e634d-5594-4376-b7a6-a34863358a5b" />
+  <img width="1285" height="492" alt="image" src="https://github.com/user-attachments/assets/92e6c021-dbef-413e-91cd-82f90fb34337" />
+  <img width="1289" height="490" alt="image" src="https://github.com/user-attachments/assets/2daa0946-b819-4865-9440-794387a1e7ac" />
+  <img width="1285" height="513" alt="image" src="https://github.com/user-attachments/assets/0e7b84f8-ae80-4b74-986d-49523b261534" />
+  
+  The reason the actual value is not shown is because of the typecasting.
+  <img width="1285" height="600" alt="image" src="https://github.com/user-attachments/assets/f9cfd957-db00-4f3a-92d6-656457cafe8a" />
+  <img width="1459" height="466" alt="image" src="https://github.com/user-attachments/assets/84c4e5bd-a765-4c55-9454-89bcff255088" />
+</p>
+
 </details>
     
 ## Day 2 - Introduction to ABI and Basic Verification Flow
