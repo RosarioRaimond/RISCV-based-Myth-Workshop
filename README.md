@@ -351,7 +351,13 @@ chmod 777 rv32im.sh
 ## Day 3 - Digital Logic with TL-Verilog and Makerchip
 
 <details>
-<summary><b>Topics Covered</b></summary>
+<summary><b>RV Day 3</b></summary>
+
+### D3SK1 Combinational logic in TL-Verilog using Makerchip
+### D3SK2 Sequential logic
+### D3SK3 Pipelined logic
+### D3SK4 Validity
+### up
 
 </details>
 
@@ -359,7 +365,11 @@ chmod 777 rv32im.sh
 ## Day 4 - Basic RISC-V CPU Micro-architecture
 
 <details>
-<summary><b>Topics Covered</b></summary>
+<summary><b>RV Day 4</b></summary>
+
+### D4SK1 Introduction to Simple RISC-V Micro-architecture
+### D4SK2 Fetch and decode
+### D4SK3 RISC-V control logic
 
 </details>
 
@@ -367,7 +377,11 @@ chmod 777 rv32im.sh
 ## Day 5 - Complete Pipelined RISC-V CPU Micro-architecture
 
 <details>
-<summary><b>Topics Covered</b></summary>
+<summary><b>RV Day 5</b></summary>
+
+### D5SK1 Pipelining the CPU
+### D5SK2 Solutions to Pipeline Hazards
+### D5SK3 Load/Store Instructions and Completing RISC-V CPU
 
 </details>
 
