@@ -1,4 +1,4 @@
-# RISC-V Based MYTH Workshop
+/Day# RISC-V Based MYTH Workshop
 
 ## Workshop Contents
 
@@ -354,9 +354,90 @@ chmod 777 rv32im.sh
 <summary><b>RV Day 3</b></summary>
 
 ### D3SK1 Combinational logic in TL-Verilog using Makerchip
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/70a94e12-b9e4-4299-9020-406fa4cc4375" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ef9a511-3131-4dd2-b854-02b47df877b0" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2c005368-1957-4add-bc85-6d10c90e5902" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc709458-2e07-4e45-b990-52d25b1ff61e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/97aa8deb-9891-4f19-8e79-48c3ed46b798" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4880e29d-d30e-4b5b-b73b-1f7e15568b09" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/15254fd6-0170-4ac4-9e6b-96ad21fef12f" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/36676040-21b5-45fa-bb25-65f485a2b21b" />  
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/187f32a5-2f2d-415a-8a40-287fc4eb52d3" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/977112ca-d7d7-450a-86ad-f0db9474ae7a" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8f45e553-b6db-4448-8dec-50faba13ee1b" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/7186b8f8-bdc2-467f-9873-873132edef12" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1ca6d722-1250-4d5e-a44f-986d8a4bed00" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/c4f60ca1-0471-4278-b3ca-25b2277ff25e" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/9da9e96b-69be-42c3-a59c-b438456a6af6" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/973133bb-ee12-421a-894d-a6115cb0505a" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/83f1f90d-ce8c-4ff2-8c77-2fb28c2cdc80" />
+
 ### D3SK2 Sequential logic
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e243cee6-2b1d-43c3-b49d-37243b592f49" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/85db21b5-5a55-458c-9df5-072e93b0e6c6" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/655ad7e1-81b7-4d8d-ab48-eafd2cbff55e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5b358c7e-5b91-42b4-bb44-f10e6a1a8faa" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e5d3051-3c45-43d9-928e-4d1959979d60" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/590865d2-ddba-4d4d-9640-3b0f93b98ddb" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/119d2405-0b07-4351-b4a2-bba5af3fb4cd" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/64b20fa3-dcac-401e-98e8-d2a562f567c9" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/50f4bba9-c167-4eff-8ab5-771add5213c1" />
+
 ### D3SK3 Pipelined logic
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/39970844-0a54-47c9-be03-2a4f46cd7603" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eb16630f-b929-4738-a176-1b04b563cc9b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c00b66e3-9021-418b-8b6b-e2e4fe325aaf" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3f9a4b44-fd36-43de-b0dd-c01aea1a004f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f027c0e8-ced6-4bd8-a11c-90ca996f190f" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ece757e-648a-4d03-93f4-5790cc1a5157" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9eda23ae-04bc-4cfc-8f27-d52aaf0bb8d5" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c3725930-c52e-41a0-842e-ae7825f0f0d9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5626c610-c05b-4dbe-83d3-ad5c61b7c26e" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3e2c9e07-82a0-4784-87cb-3efeddf420fd" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/a88dbba2-4f0f-468d-bd3e-c13e566e981c" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8a189e3f-55e2-415a-a1c8-677718b4888d" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/2624ddc4-4874-49de-83c6-8967d56f122d" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cf856867-2f5a-4e7a-aa39-28793ccf4c0c" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/4e8f6394-8803-41e6-b9ba-ae59ef1d2da3" />
+
+
+
+
 ### D3SK4 Validity
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c50c1393-e663-4396-a522-463cab9e6a9c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4b6da7b9-4f51-49ca-aae8-e0d6610617c7" />
+
+
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/936b457c-a42f-49e6-819c-c31928d46030" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31ded5ab-559f-4216-b3c9-b503cb96b7ed" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/772b5c7a-c73b-4e2b-a580-50563fb25ca5" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/94d4a2db-458f-4b3e-9599-d874a5e7ca30" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/e0f0ceab-aea0-490d-8efb-66bdbde497e9" />
+
 ### up
 
 </details>
