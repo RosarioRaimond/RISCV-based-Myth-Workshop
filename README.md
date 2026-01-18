@@ -240,7 +240,110 @@ Instructions that operate on these kind of numbers are called Base integer instr
 ## Day 2 - Introduction to ABI and Basic Verification Flow
 
 <details>
-<summary><b>Topics Covered</b></summary>
+<summary><b>RV Day 2</b></summary>
+  
+### D2SK1 Application Binary Interface (ABI)  
+<details>
+<summary><b>Theory Images</b></summary>
+  <p align="center">
+    <img width="1778" height="883" alt="image" src="https://github.com/user-attachments/assets/12bce583-0e54-4f17-ae25-082dd2bdf0ea" />
+    <img width="1773" height="1029" alt="image" src="https://github.com/user-attachments/assets/109c1e21-b497-4dde-aef1-ad5a4645fd01" />
+    <img width="1572" height="202" alt="image" src="https://github.com/user-attachments/assets/053ebe1b-0580-4d2e-a712-4271d4e79c6a" />
+  </p>  
+</details>  
+
+There are 32 Registers in RISC-V architecture and XLEN defines the size of the registers, it can be 32 for RV32 and 64 for RV64.
+<p align="center">
+  <img width="1582" height="1066" alt="image" src="https://github.com/user-attachments/assets/4f3a58f6-6224-4ba9-b9b2-6131f66a708d" />
+</p>
+
+The data can be loaded on to the registers in 2 ways.  
+- It can be loaded directly.
+- It can be loaded from a location in the memory.
+
+  The memory is byte addressable and based on how the bytes are arranged in the memory, it is classified as Big Endian and Little Endian.
+
+**Endianness** defines the order in which bytes of a multi-byte data value are stored in memory.
+
+- **Big Endian**: Most Significant Byte (MSB) is stored at the lowest memory address.
+- **Little Endian**: Least Significant Byte (LSB) is stored at the lowest memory address.
+
+#### Example
+
+Consider the 32-bit value: 0x12345678  
+
+
+| Memory Address | Big Endian | Little Endian |
+|---------------|------------|---------------|
+| 0x00 | 12 | 78 |
+| 0x01 | 34 | 56 |
+| 0x02 | 56 | 34 |
+| 0x03 | 78 | 12 |
+
+Although the **byte order in memory differs**, both representations store the same value `0x12345678`.
+
+> Most modern processors, including **RISC-V**, use **little-endian** byte ordering by default.
+
+<details>
+<summary><b>Endian Images</b></summary>
+  <p align="center">
+    <img width="1918" height="1074" alt="image" src="https://github.com/user-attachments/assets/9dda5d49-8835-4603-9cc7-6d0100fa3bb5" />
+    <img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/fa49245d-33da-48d3-acf8-2678f9b109a3" />
+    <img width="1917" height="1075" alt="image" src="https://github.com/user-attachments/assets/cbbd2f10-98d0-4f6d-b385-0a0dbaa07830" />
+  </p>  
+</details>  
+
+For example, let us consider an array M with 3 doublewords and we want to load the data in 3rd doubleword to the register x8. The instruction ld loads the 64 bit data at the address obtained by adding offset (16) to the contents of the source register rs1 (x23, in this case x23 has 0) to the destination register rd (x8).  
+  <p align="center">
+    <img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/703cfea2-a694-4a42-8e29-4c6cfd7b995d" />
+  </p>
+
+All the instructions in RISC-V are 32 bits (irrespective of RV64 or RV32).   
+<p align="center">
+  <img width="1485" height="214" alt="image" src="https://github.com/user-attachments/assets/73629cfc-7f52-4b50-9a04-4127ee20517b" />
+  <img width="1458" height="633" alt="image" src="https://github.com/user-attachments/assets/1e7f8449-c2c0-4d24-96c9-b77beafee9e6" />
+  <img width="1539" height="740" alt="image" src="https://github.com/user-attachments/assets/3e7d1989-1f65-4e46-8e0b-bef2e34d52dd" />
+  <img width="1621" height="748" alt="image" src="https://github.com/user-attachments/assets/b6d2da25-742f-4c66-95a0-916f8ffc3f2c" />
+  <img width="1743" height="1056" alt="image" src="https://github.com/user-attachments/assets/3c0da88e-6b2a-4c51-a7ef-e2ff3a69bfce" />
+</p>  
+
+
+
+### D2SK2 Lab work using ABI function calls  
+<p align="center">
+  <img width="909" height="591" alt="image" src="https://github.com/user-attachments/assets/5f46efcf-2caa-4ae8-af8d-e0477826c17d" />
+  <img width="1344" height="1043" alt="image" src="https://github.com/user-attachments/assets/f9aa1994-58f9-4173-8176-09f6498ea33f" />
+  <img width="1285" height="811" alt="image" src="https://github.com/user-attachments/assets/ee753269-d382-4220-bfaa-43d9641792fb" />
+  <img width="1286" height="802" alt="image" src="https://github.com/user-attachments/assets/49fa1143-7921-4c73-bb98-41fdb50b8f00" />
+  <img width="1286" height="805" alt="image" src="https://github.com/user-attachments/assets/676ffea9-81ff-47f4-ad5e-0bfd6c5e0d09" />
+</p>
+
+### D2SK3 Basic verification flow using iverilog
+<p align="center">
+  <img width="1434" height="1017" alt="image" src="https://github.com/user-attachments/assets/63830f79-ba19-407c-8d9b-538fc896e6b1" />
+</p>
+
+```bash
+# clone the Workshop collateral directory
+git clone https://github.com/kunalg123/riscv_workshop_collaterals.git
+
+# cd into the directory
+cd riscv_workshop_collaterals
+
+# Check if the files are there using ls -ltr
+ls -ltr
+
+# cd into labs
+cd labs
+
+# change the permissions & run the script to simulate the c code
+chmod 777 rv32im.sh
+./rv32im.sh
+```
+<p align="center">
+  <img width="1287" height="804" alt="image" src="https://github.com/user-attachments/assets/4bd2231b-4522-4bf1-9839-0630646beb96" />
+  <img width="1290" height="344" alt="image" src="https://github.com/user-attachments/assets/c2d4e8b1-7962-49bd-950d-dda05743524a" />
+</p>
 
 </details>
 
